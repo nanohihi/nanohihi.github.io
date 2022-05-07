@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    font-family: 'Roboto';
+}
+
+/* Centering the image and resizing it */
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container-global{
+    display: inline-table;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 50%;
+
+}
+
+
+/* Custom modern Button*/
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #BFC0C0;
+    margin: 20px 20px 20px 20px;
+    color: #BFC0C0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+a {
+    color: #BFC0C0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  
+  #button-2 a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+  text-align: center;
+    transition: all .35s ease-Out;
+  }
+  
+  
+  
+
+
+
+  /* IPAD/Tablet css configuration */
+
+  @media only screen and (min-width: 768px) {
+    .container-global{
+        display: block;
+        margin-top: 30%;
+
+    }
+
+    .button{
+        width: 320px;
+        height: 80px;
+        font-size: 26px;
+    }
+
+    #button-2 a{
+        padding-top: 24px;
+    }
+  }
+
+@media only screen and (min-width: 1000px) {
+    img {
+        width: 20%;
+    }
+
+    .button{
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #button-2 a{
+        padding-top: 12px;
+    }
+
+    .container-global {
+        margin-top: 11%;
+    }
+
+    
+}
